@@ -10,4 +10,15 @@ console.log(
   "color: red; font-size: 40px",
   "color: blue; font-size: 50px"
 );
-hello.innerHTML = "Hello"
+hello.innerHTML = "Hello";
+
+let markUp = `
+<div class="card">
+  <div class="child">
+  <h2>Title</h2>
+  <p>Paragraph</p>
+  </div>
+</div>
+`;
+
+document.write(markUp);
