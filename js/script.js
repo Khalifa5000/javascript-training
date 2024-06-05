@@ -10,3 +10,4 @@ console.log(
   "color: red; font-size: 40px",
   "color: blue; font-size: 50px"
 );
+hello.innerHTML = "Hello"
